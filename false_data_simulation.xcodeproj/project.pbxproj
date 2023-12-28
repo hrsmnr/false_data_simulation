@@ -3,13 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXFileReference section */
+		6C3A376A2B3D47B5008C4BAC /* false_data_simulation.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = false_data_simulation.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		6C3A375F2B3D4749008C4BAC = {
 			isa = PBXGroup;
 			children = (
+				6C3A376A2B3D47B5008C4BAC /* false_data_simulation.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,7 +49,7 @@
 				};
 			};
 			buildConfigurationList = 6C3A37632B3D4749008C4BAC /* Build configuration list for PBXProject "false_data_simulation" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -181,6 +186,7 @@
 				DEVELOPMENT_TEAM = 2UT69B96GN;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				IDEPreferLogStreaming = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -193,6 +199,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2UT69B96GN;
+				IDEPreferLogStreaming = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
